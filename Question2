@@ -40,7 +40,7 @@ const final = splitString.reverse().join();
 const re = /[^A-Za-z0-9]/g;
     str = str.toLowerCase().replace(re, "");
 
-    
+ Also reverse and join are both function in javascript but may need to be written fully if using another language.   
 
 
 

@@ -3,7 +3,7 @@ B) Given your answer to part (1), what components or products would you select f
 dotted-line boxes and why?
 
 
-A) "Developer commits code" would suggest this a some kind of software lifecycle where the developer is pushing data to a version control system. The developer writes code which has to pass the CI/CD (continuous intergration/deployment) checks  - in Github I believe this is in Actions>Workflows. A pull request can be created from the Registry once these checks pass, and the PR can be meged with the production code. 
+A) "Developer commits code" would suggest this a some kind of software lifecycle where the developer is pushing data to a version control system. The developer writes code which has to pass the CI/CD (continuous intergration/deployment) checks  - in Github I believe this is in Actions>Workflows. A pull request can be created from the Registry once these checks pass, and the PR can be authorised and merged with the production code. 
 
 
 B) For the image scanner, ths would be necessary in case malicious code was injected before release to production, this could be done before the merge stage manually by checking timestamps and chages to the code. There are no doubt products out there to automate this and use predefined config files, I've not used any as I've not been in a dev role, but I did find a solution called Bridgecrew/Checkov which seems to do the job of image scanner.

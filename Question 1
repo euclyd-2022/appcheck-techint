@@ -20,7 +20,7 @@ There always seems to be new recommandations for how to come up with a password 
 
 I recently did a course on web dev and they talked about hashing and salting passwords, apparantly passwords with a combination of all characters up to 6 digits long will give you ~20B combinations, whereas dictionary words give around 150k combinations. 
 
-The suggestion is that the more characters in a password you have, it becomes exponentially more time to crack.
+The suggestion is that the more characters in a password you have, it takes exponentially more time to crack.
 
 There's a good website to check passwords and how long it could take to crack - http://password-checker.online-domain-tools.com/ 
 

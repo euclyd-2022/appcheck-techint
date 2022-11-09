@@ -1,0 +1,13 @@
+[
+  {
+  "type": "person",
+  "id": "123",
+  "name": {
+    "fname": "fn",
+    "lname": "ln"
+  },
+  "dob": "10/10/1900",
+  "about": "enjoys working iwith tech and learning new stuff"
+  }
+
+]

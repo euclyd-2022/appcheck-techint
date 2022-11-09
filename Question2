@@ -1,0 +1,48 @@
+<!-- A palindrome is a word, phrase, number, or other sequence of characters which reads the same
+backward as forward, such as madam or rotator. Using any scripting or programming language that
+you wish:
+A) Write or source a method that checks to see if a given word provided by a user as input is a
+palindrome.
+B) What are some possible security concerns with the code that you have written or sourced?
+C) Describe a good way and a bad way of fixing one of these security concerns in your submitted
+code.
+If you are not fluent in any programming language or code, then you may submit your answer as an
+algorithm in pseudo-code.
+Example:
+if "1"
+print response
+"I am case 1" -->
+
+
+A) I have the beginnings of a palindrome checker here - https://codesandbox.io/s/vigilant-monad-v533xn 
+
+it console logs the initial string and its reverse, but I never did complete it to fully check for a palindrome.
+
+In psudocode I would do the following:
+
+#take the entered string and break it down to a lowercase array/list of characters
+
+splitString = str.split("");
+
+#reverse the array and join it back together to create a new string
+
+const final = splitString.reverse().join();
+
+#compare the initial string and the final string
+
+ if (final === str) {
+      return true;
+    }
+
+
+#B) I'm not sure about 'security' but special characters or spaces would need to be accounted for, this would be easiest done by a regex check and replace them with no character, eg: 
+
+const re = /[^A-Za-z0-9]/g;
+    str = str.toLowerCase().replace(re, "");
+
+    
+
+
+
+
+

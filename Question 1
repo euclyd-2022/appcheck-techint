@@ -7,3 +7,31 @@ B) “sHkUDH728s”
 C) “gloss badger tint“
 
 
+Compared to a lot of passwords I've seen, they all have a level of complexity that is often neglected by users unless prompted to follow a pattern (upper case/numbers/symbols etc.). 
+
+C is arguably (but read to the end!) least secure as it only contains lower case English words that can easily by found using a dictionary, also spaces in the password could be rejected by the system that is asking for a password to be generated. It will be easily memorable by an end user, so should (hopefully) not be compromised by being written down near the computer.
+
+B is relatively complex in that is uses uppercase and numbers and is 10 digits longs, however is not memorable to an end user.
+A is long but has little complexity as it only uses numbers.
+
+There always seems to be new recommandations for how to come up with a password eg. a letter/number/special character; different from your last x passwords; not use personal details.
+
+"Through 20 years of effort, we've successfully trained everyone to use passwords that are hard for humans to remember, but easy for computers to guess" - XKCD
+
+I recently did a course on web dev and they talked about hashing and salting passwords, apparantly passwords with a combination of all characters up to 6 digits long will give you ~20B combinations, whereas dictionary words give around 150k combinations. 
+
+The suggestion is that the more characters in a password you have, it becomes exponentially more time to crack.
+
+There's a good website to check passwords and how long it could take to crack - http://password-checker.online-domain-tools.com/ 
+
+Password A could take about 4 million years on a desktop computer
+Password B about 3000 years
+Password C About 4 quadrillion years
+
+So in actual fact C is the most secure according to the password checker!
+
+
+
+
+
+
